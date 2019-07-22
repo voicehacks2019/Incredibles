@@ -1,0 +1,18 @@
+structure (EmergencyObj) {
+  description (__DESCRIPTION__)
+  property (messageToDisplay) {
+    type (viv.core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+    property (messageToSpeak) {
+    type (viv.core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+    property (help) {
+    type (viv.core.Text)
+    min (Required) max (Many)
+    visibility (Private)
+  }
+}

@@ -1,0 +1,5 @@
+train (t-sgnzwyfbp9tk1p1hda2d3xjgs) {
+  utterance ("[g:GetInfo] I am having a (heart attack)[v:EmergencyName]")
+  plan (Y2BmEEutSMwtyEnVS0tMLtFzzU0tSk/NS65kEEERd08t8cxLy2eQwq7aLzE3lYGJgRGIGYAkIwMIQPkA)
+  last-modified (1563816171442)
+}

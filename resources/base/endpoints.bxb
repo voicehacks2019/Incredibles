@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (GetInfo) {
+      accepted-inputs (emergencyName)
+      local-endpoint (GetInfo.js)
+    }
+  }
+}

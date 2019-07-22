@@ -1,0 +1,11 @@
+action (GetInfo) {
+  type(Search)
+  description (__DESCRIPTION__)
+  collect {
+    input (emergencyName) {
+      type (EmergencyName)
+      min (Required) max (One)
+    }
+  }
+  output (EmergencyObj)
+}
